@@ -1,4 +1,4 @@
-loglikelihood_inspection <- function(X,S,Y,Beta,Gamma,sigma,c,rho){
+loglikelihood_inspection <- function(X,S,Y,Beta,Gamma,sigma,c,rho){ 
   n = nrow(X)
   epsilon = rnorm(n,0,1)
   delta = rnorm(n,0,1)
