@@ -89,11 +89,8 @@ for i in range(2,len(L)-1):
 
     driver.find_element_by_xpath('//*[@id="conditions"]/div['+str(i)+']/select[1]/option[2]').click()
 
-
 driver.find_element_by_xpath('//*[@id="conditions"]/div['+str(i+1)+']/input[2]').click()
 
 driver.find_element_by_xpath('//*[@id="filtertable"]/tbody/tr/td/form/div[1]/div[1]/div/button[1]/span/b').click()
-
-
 
 
